@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidStream - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-left">
+            <button class="menu-btn" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="logo">
+                <h1>VidStream</h1>
+            </div>
+        </div>
+        
+        <div class="nav-center">
+            <div class="search-container">
+                <input type="text" placeholder="Search videos..." class="search-input">
+                <button class="search-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <div class="nav-right">
+            <a href="signin.html" class="signin-btn">Sign In</a>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <div class="nav-section">
+                <a href="#" class="nav-item active">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-text">Home</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">🔥</span>
+                    <span class="nav-text">Trending</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">📚</span>
+                    <span class="nav-text">Library</span>
+                </a>
+            </div>
+            
+            <div class="nav-section">
+                <h3>Categories</h3>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">🎮</span>
+                    <span class="nav-text">Gaming</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">🎵</span>
+                    <span class="nav-text">Music</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">💻</span>
+                    <span class="nav-text">Technology</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">🎬</span>
+                    <span class="nav-text">Entertainment</span>
+                </a>
+            </div>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="video-grid">
+            <!-- Video Card 1 -->
+            <div class="video-card" data-video-id="dQw4w9WgXcQ">
+                <div class="video-thumbnail">
+                    <img src="https://placehold.co/320x180?text=Epic+Gaming+Montage+Thumbnail" alt="Epic Gaming Montage Thumbnail">
+                    <span class="video-duration">10:24</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Epic Gaming Montage - Best Moments 2024</div>
+                    <div class="channel-info">
+                        <img src="https://placehold.co/36x36?text=Gaming+Channel+Avatar" alt="Gaming Channel Avatar" class="channel-avatar">
+                        <div class="channel-details">
+                            <div class="channel-name">ProGamer TV</div>
+                            <div class="video-meta">2.4M views • 3 days ago</div>
+                        </div>
+                    </div>
+                    <div class="video-actions">
+                        <button class="action-btn like-btn" data-video-id="dQw4w9WgXcQ">
+                            <span class="like-icon">🤍</span>
+                            <span class="like-text">Like</span>
+                        </button>
+                        <button class="action-btn subscribe-btn" data-channel="ProGamer TV">
+                            <span class="subscribe-text">Subscribe</span>
+                        </button>
+                        <button class="action-btn share-btn" data-video-id="dQw4w9WgXcQ">
+                            <span>Share</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Card 2 -->
+            <div class="video-card" data-video-id="9bZkp7q19f0">
+                <div class="video-thumbnail">
+                    <img src="https://placehold.co/320x180?text=Relaxing+Music+Playlist+Cover" alt="Relaxing Music Playlist Cover">
+                    <span class="video-duration">1:23:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Chill Lofi Hip Hop - 24/7 Study & Work Beats</div>
+                    <div class="channel-info">
+                        <img src="https://placehold.co/36x36?text=Lofi+Music+Channel" alt="Lofi Music Channel" class="channel-avatar">
+                        <div class="channel-details">
+                            <div class="channel-name">Lofi Vibes</div>
+                            <div class="video-meta">856K views • 1 week ago</div>
+                        </div>
+                    </div>
+                    <div class="video-actions">
+                        <button class="action-btn like-btn" data-video-id="9bZkp7q19f0">
+                            <span class="like-icon">🤍</span>
+                            <span class="like-text">Like</span>
+                        </button>
+                        <button class="action-btn subscribe-btn" data-channel="Lofi Vibes">
+                            <span class="subscribe-text">Subscribe</span>
+                        </button>
+                        <button class="action-btn share-btn" data-video-id="9bZkp7q19f0">
+                            <span>Share</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Card 3 -->
+            <div class="video-card" data-video-id="kJQP7kiw5Fk">
+                <div class="video-thumbnail">
+                    <img src="https://placehold.co/320x180?text=Web+Development+Tutorial+Screenshot" alt="Web Development Tutorial Screenshot">
+                    <span class="video-duration">28:17</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Learn React in 30 Minutes - Complete Beginner Tutorial</div>
+                    <div class="channel-info">
+                        <img src="https://placehold.co/36x36?text=Code+Academy+Logo" alt="Code Academy Logo" class="channel-avatar">
+                        <div class="channel-details">
+                            <div class="channel-name">CodeAcademy Pro</div>
+                            <div class="video-meta">1.2M views • 5 days ago</div>
+                        </div>
+                    </div>
+                    <div class="video-actions">
+                        <button class="action-btn like-btn" data-video-id="kJQP7kiw5Fk">
+                            <span class="like-icon">🤍</span>
+                            <span class="like-text">Like</span>
+                        </button>
+                        <button class="action-btn subscribe-btn" data-channel="CodeAcademy Pro">
+                            <span class="subscribe-text">Subscribe</span>
+                        </button>
+                        <button class="action-btn share-btn" data-video-id="kJQP7kiw5Fk">
+                            <span>Share</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Card 4 -->
+            <div class="video-card" data-video-id="L_jWHffIx5E">
+                <div class="video-thumbnail">
+                    <img src="https://placehold.co/320x180?text=Funny+Cat+Compilation+Thumbnail" alt="Funny Cat Compilation Thumbnail">
+                    <span class="video-duration">15:42</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Hilarious Cat Fails Compilation - Try Not to Laugh</div>
+                    <div class="channel-info">
+                        <img src="https://placehold.co/36x36?text=Pet+Comedy+Channel" alt="Pet Comedy Channel" class="channel-avatar">
+                        <div class="channel-details">
+                            <div class="channel-name">Pet Comedy Central</div>
+                            <div class="video-meta">3.1M views • 2 days ago</div>
+                        </div>
+                    </div>
+                    <div class="video-actions">
+                        <button class="action-btn like-btn" data-video-id="L_jWHffIx5E">
+                            <span class="like-icon">🤍</span>
+                            <span class="like-text">Like</span>
+                        </button>
+                        <button class="action-btn subscribe-btn" data-channel="Pet Comedy Central">
+                            <span class="subscribe-text">Subscribe</span>
+                        </button>
+                        <button class="action-btn share-btn" data-video-id="L_jWHffIx5E">
+                            <span>Share</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Card 5 -->
+            <div class="video-card" data-video-id="M7lc1UVf-VE">
+                <div class="video-thumbnail">
+                    <img src="https://placehold.co/320x180?text=Travel+Vlog+Mountain+Adventure" alt="Travel Vlog Mountain Adventure">
+                    <span class="video-duration">22:33</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Backpacking Through the Swiss Alps - Epic Adventure Vlog</div>
+                    <div class="channel-info">
+                        <img src="https://placehold.co/36x36?text=Travel+Adventure+Logo" alt="Travel Adventure Logo" class="channel-avatar">
+                        <div class="channel-details">
+                            <div class="channel-name">Adventure Seekers</div>
+                            <div class="video-meta">674K views • 1 week ago</div>
+                        </div>
+                    </div>
+                    <div class="video-actions">
+                        <button class="action-btn like-btn" data-video-id="M7lc1UVf-VE">
+                            <span class="like-icon">🤍</span>
+                            <span class="like-text">Like</span>
+                        </button>
+                        <button class="action-btn subscribe-btn" data-channel="Adventure Seekers">
+                            <span class="subscribe-text">Subscribe</span>
+                        </button>
+                        <button class="action-btn share-btn" data-video-id="M7lc1UVf-VE">
+                            <span>Share</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Card 6 -->
+            <div class="video-card" data-video-id="YQHsXMglC9A">
+                <div class="video-thumbnail">
+                    <img src="https://placehold.co/320x180?text=Cooking+Recipe+Food+Preparation" alt="Cooking Recipe Food Preparation">
+                    <span class="video-duration">12:18</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Gordon Ramsay's Perfect Pasta Recipe - Master Class</div>
+                    <div class="channel-info">
+                        <img src="https://placehold.co/36x36?text=Cooking+Master+Chef" alt="Cooking Master Chef" class="channel-avatar">
+                        <div class="channel-details">
+                            <div class="channel-name">Chef's Kitchen</div>
+                            <div class="video-meta">4.2M views • 4 days ago</div>
+                        </div>
+                    </div>
+                    <div class="video-actions">
+                        <button class="action-btn like-btn" data-video-id="YQHsXMglC9A">
+                            <span class="like-icon">🤍</span>
+                            <span class="like-text">Like</span>
+                        </button>
+                        <button class="action-btn subscribe-btn" data-channel="Chef's Kitchen">
+                            <span class="subscribe-text">Subscribe</span>
+                        </button>
+                        <button class="action-btn share-btn" data-video-id="YQHsXMglC9A">
+                            <span>Share</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Card 7 -->
+            <div class="video-card" data-video-id="XbGs_qK2PQA">
+                <div class="video-thumbnail">
+                    <img src="https://placehold.co/320x180?text=Fitness+Workout+Home+Exercise" alt="Fitness Workout Home Exercise">
+                    <span class="video-duration">18:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">20-Minute Full Body Workout - No Equipment Needed</div>
+                    <div class="channel-info">
+                        <img src="https://placehold.co/36x36?text=Fitness+Coach+Avatar" alt="Fitness Coach Avatar" class="channel-avatar">
+                        <div class="channel-details">
+                            <div class="channel-name">FitLife Coach</div>
+                            <div class="video-meta">1.8M views • 6 days ago</div>
+                        </div>
+                    </div>
+                    <div class="video-actions">
+                        <button class="action-btn like-btn" data-video-id="XbGs_qK2PQA">
+                            <span class="like-icon">🤍</span>
+                            <span class="like-text">Like</span>
+                        </button>
+                        <button class="action-btn subscribe-btn" data-channel="FitLife Coach">
+                            <span class="subscribe-text">Subscribe</span>
+                        </button>
+                        <button class="action-btn share-btn" data-video-id="XbGs_qK2PQA">
+                            <span>Share</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Card 8 -->
+            <div class="video-card" data-video-id="E5vYsCVHDOg">
+                <div class="video-thumbnail">
+                    <img src="https://placehold.co/320x180?text=Science+Experiment+Laboratory+Setup" alt="Science Experiment Laboratory Setup">
+                    <span class="video-duration">14:29</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Mind-Blowing Science Experiments You Can Do at Home</div>
+                    <div class="channel-info">
+                        <img src="https://placehold.co/36x36?text=Science+Lab+Channel" alt="Science Lab Channel" class="channel-avatar">
+                        <div class="channel-details">
+                            <div class="channel-name">Science Explorer</div>
+                            <div class="video-meta">923K views • 3 days ago</div>
+                        </div>
+                    </div>
+                    <div class="video-actions">
+                        <button class="action-btn like-btn" data-video-id="E5vYsCVHDOg">
+                            <span class="like-icon">🤍</span>
+                            <span class="like-text">Like</span>
+                        </button>
+                        <button class="action-btn subscribe-btn" data-channel="Science Explorer">
+                            <span class="subscribe-text">Subscribe</span>
+                        </button>
+                        <button class="action-btn share-btn" data-video-id="E5vYsCVHDOg">
+                            <span>Share</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Mobile Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
